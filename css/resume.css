@@ -16,7 +16,9 @@ body {
     padding-left: 17rem;
   }
 }
-
+.mb-0{
+    color:#2E364F;
+}
 h1,
 h2,
 h3,
@@ -160,17 +162,34 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #2E364F !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #9A073C⁣ !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #2D5D7C;
 }
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.card { 
+  overflow: hidden;
+  cursor:pointer;
+}
+.card:hover .card-img-top {
+  background-color: #2b496c;
+  transform: translateY(0);
+  opacity:100;
+}
+.card-img-top {
+  top: 0;
+  transform: translateY(-250px);
+  transition: all .3s ease-in-out;
+  opacity:0;
+  overflow: hidden;
 }
